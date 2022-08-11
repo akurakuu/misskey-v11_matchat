@@ -1,0 +1,39 @@
+{
+	id: 'bb5a8287-a072-4b0a-8ae5-ea2a0d33f4f2',
+
+	name: 'Future',
+	author: 'syuilo',
+	desc: 'Sci-fi flavored',
+
+	base: 'dark',
+
+	vars: {
+		c0: '#0e0e0e',
+		c1: 'rgb(255, 105, 78)',
+		c2: 'rgb(99, 197, 210)',
+		c4: 'rgb(253, 254, 214)',
+		c3: 'rgb(204, 254, 253)',
+		primary: '$c1', アクセントカラー
+		secondary: '#191919', noteとかのコンテナの背景
+		text: '$c3', 基本文字色
+	},
+
+	props: {
+		bg: '$c0', 一番後ろのいろ
+		noteText: '$c4', 投稿のテキスト
+		noteHeaderAcct: ':alpha<0.65<$c4',  ユーザーid
+		noteHeaderInfo: ':alpha<0.5<$c4', 投稿時間
+		subNoteText: ':alpha<0.7<$c4', 返信の時の返信元メッセージ
+		renoteGradient: '$secondary',
+		renoteText: '$c2',
+		quoteBorder: '$c2',
+		mfmHashtag: '$c1', ハッシュタグ
+		mfmUrl: '$c2', noteに張られたURL
+		mfmLink: '$c2',
+		mfmMention: '$c1', メンション
+		mfmMentionForeground: '#fff', メンションの「あなた」とかの文字色
+		notificationIndicator: '$c2',
+		link: '$c2', URLの色
+		desktopHeaderBg: '$secondary', ヘッダーの色
+	},
+}
