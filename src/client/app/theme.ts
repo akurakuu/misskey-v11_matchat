@@ -11,6 +11,7 @@ export type Theme = {
 };
 
 export const matchaTheme: Theme = require('../themes/matcha.json5');
+export const tcdarkTheme: Theme = require('../themes/tcdark.json5');
 export const lightTheme: Theme = require('../themes/light.json5');
 export const darkTheme: Theme = require('../themes/dark.json5');
 export const lavenderTheme: Theme = require('../themes/lavender.json5');
@@ -28,6 +29,7 @@ export const tweetDeckTheme: Theme = require('../themes/tweet-deck.json5');
 
 export const builtinThemes = [
 	matchaTheme,
+	tcdarkTheme,
 	lightTheme,
 	darkTheme,
 	lavenderTheme,

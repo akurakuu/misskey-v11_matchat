@@ -69,6 +69,7 @@ import XQueue from './queue.vue';
 import XLogs from './logs.vue';
 import XDb from './db.vue';
 import XModerators from './moderators.vue';
+//import Xofficialusers from './officialuser.vue';
 import XEmoji from './emoji.vue';
 import XAnnouncements from './announcements.vue';
 import XUsers from './users.vue';

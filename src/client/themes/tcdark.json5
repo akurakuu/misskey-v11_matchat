@@ -1,20 +1,20 @@
 {
-	id: 'matcha',
+	id: 'TcDark',
 
-	name: 'Matcha',
-	author: 'TRENDcreate, akurakuu',
-	desc: 'matcha official theme',
+	name: 'TcDark',
+	author: 'farland, akurakuu',
+	desc: 'TRENDcreate color theme',
 
 	base: 'dark',
 
 	vars: {
-		col0: '#262633',
-		col1: 'rgb(183, 186, 107)',
+		col0: '#262626',
+		col1: 'rgb(49, 179, 119)',
 		col2: 'rgb(50, 180, 120)',
 		col3: 'rgb(253, 254, 214)',
 		col4: 'rgb(200, 200, 200)',
 		primary: '$col1',
-		secondary: '#303040',
+		secondary: 'rgb(32, 32, 32)',
 		text: '$col4',
 	},
 
